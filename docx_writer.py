@@ -5,6 +5,7 @@ from parser import *
 
 __author__ = 'Albert Yu'
 
+
 def main():
     date = datetime.date.today()
     document = Document()
