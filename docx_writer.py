@@ -1,6 +1,4 @@
-import datetime
 from docx import Document
-from docx.shared import Inches
 from parser import *
 
 __author__ = 'Albert Yu'
