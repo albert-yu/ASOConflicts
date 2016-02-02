@@ -14,9 +14,20 @@ def string_to_datetime(date_as_string):
     :param date_as_string:
     :return: a datetime object
     """
-    month = int(date_as_string[0:2])
-    day = int(date_as_string[3:5])
-    year = int(date_as_string[6:9])
+    date_components = []
+    current_component = ""
+    for char in date_as_string:
+        if char != "/":
+            current_component += char
+        else:
+            date_components.append(current_component)
+            current_component = ""
+    if current_component != "":
+        date_components.append(current_component)
+
+    month = int(date_components[0])
+    day = int(date_components[1])
+    year = int(date_components[2])
     return datetime.date(year, month, day)
 
 
@@ -78,7 +89,7 @@ def create_conflict(parsed_list):
     """
     name = parsed_list[1]
     instr = parsed_list[2]
-    date = parsed_list[3]
+    date = string_to_datetime(parsed_list[3])
     time = parsed_list[4]
     reason = parsed_list[5]
     return Conflict(name, instr, date, time, reason)
@@ -95,10 +106,8 @@ def store_conflicts(csv_filename):
     with open(csv_filename, "rt") as f:
         reader = csv.reader(f)
         for row in reader:
-            try:
+            if row[0] != "Timestamp":
                 conflicts.append(create_conflict(row))
-            except:
-                pass
     return conflicts
 
 # print(store_conflicts('Conflicts.csv')[0].name)
@@ -119,6 +128,8 @@ def split_into_words(text):
         else:
             words.append(current_word)
             current_word = ""
+    if current_word != "":
+        words.append(current_word)
     return words
 
 # test = "The cat is neither dead nor alive."
