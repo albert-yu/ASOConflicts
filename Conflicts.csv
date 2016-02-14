@@ -1,17 +1,40 @@
-Timestamp,Name,Instrument,Day of Conflict,Time Absent,Reason
-11/15/2015 19:43:11,Test Person,,11/17/2015,Before 8,Test
-11/15/2015 19:58:07,Test Person,Flute/Piccolo,11/19/2015,Entire,Test
-11/16/2015 13:37:24,Test User 2,Flute/Piccolo,11/19/2015,Random time,Ignore this; just a test. 
-11/22/2015 16:08:31,TEST PERSON IGNORE,Horn,4/4/2016,NONE,NONE
-11/22/2015 16:10:04,Test Person 4,Oboe/English Horn,4/4/2016,None,None
-11/22/2015 16:12:29,Test Person 5,Violin I,5/5/2016,Entire,What is the meaning of life?
-11/22/2015 16:21:45,Test ,Clarinet,1/10/2015,All,LALALA
-11/22/2015 16:23:22,Test again,Oboe/English Horn,1/1/2015,NOw,M
-11/22/2015 16:31:03,TEST,Bassoon,1/1/2015,After 10,None
-11/22/2015 16:39:45,David Schneider,Clarinet,12/25/2015,entire rehearsal,Christian holiday
-11/23/2015 9:26:14,John Smith,Horn,4/1/2015,Never,None
-12/21/2015 19:01:19,Johann Sebastian Bach,Piano,12/21/2015,Entire rehearsal,I am dead.
+Timestamp,Name,Instrument,Day,Time,Reason
 1/25/2016 17:24:58,Paul Gramieri,Cello,1/26/2016,Entire,Math comps
 1/25/2016 17:25:44,Paul Gramieri,Cello,1/28/2016,Entire rehearsal,Math Comps
 1/25/2016 17:26:46,Paul Gramieri,Cello,2/2/2016,Entire,AAS Fund meeting
+1/26/2016 14:50:06,Paul Gramieri,Cello,1/26/2016,Entire,Comps
 1/28/2016 11:37:40,Matthew Chow,Violin I,1/28/2016,"Maybe the entire thing, or up until 8",TI auditions
+1/31/2016 15:31:19,Victoria Luizzi,Horn,1/3/2016,Maybe entire,Exam
+1/31/2016 15:32:13,Victoria Luizzi,Horn,4/14/2016,Entire,Exam
+1/31/2016 15:32:42,Victoria Luizzi,Horn,3/3/2016,Entire,Exam
+1/31/2016 15:34:10,Victoria Luizzi,Horn,3/24/2016,Entire,Five College Poetry Fest at Hampshire
+1/31/2016 15:36:36,Sam Rosenblum,Trumpet,2/2/2016,7 - 8:30,?
+1/31/2016 15:37:16,Sam Rosenblum,Trumpet,2/11/2016,Entire,?
+2/2/2016 12:30:29,Helen Montie,Cello,2/2/2016,Entire,Sick
+2/2/2016 12:32:41,Evelyn Ting,Violin I,2/4/2016,Entire,"CS Club meeting, Loneliness survey results"
+2/2/2016 12:34:29,Alura Chung-Mehdi,Cello,2/2/2016,After 8:45,GAP meeting
+2/2/2016 12:35:41,Rebecca Chun,Violin II,2/4/2016,Entire,Equestrian team captains' meeting
+2/2/2016 12:36:14,Rebecca Chun,Violin II,3/8/2016,Entire,Biochem exam
+2/2/2016 12:37:02,Hannah Tandon,Horn,2/11/2016,Entire,Job interview with Bethesda
+2/3/2016 15:10:27,Cindy Gong,Viola,2/4/2016,8 - 8:30 ish,Club meeting
+2/3/2016 15:12:41,Eric Lin,Viola,2/4/2016,Entire (maybe),Attending a workshop
+2/7/2016 13:46:42,Anna Dalton,Oboe/English Horn,2/16/2016,"Entire, but will be there for take down",Big Brothers Big Sisters training
+2/8/2016 16:21:12,Albert Yu,Horn,2/8/2016,6 AM,CHEM
+2/8/2016 16:28:20,Emily Ratte,Violin I,2/9/2016,First half,SOCI 316 (Social Research)
+2/8/2016 19:21:31,Mark Swanson,Baton,5/9/2016,all,summer vacay
+2/8/2016 22:09:47,Sarah Wishloff,Violin II,2/9/2016,Before 8 ,Class Conflict (BIOL 181) leading to a later Swim Practice time
+2/8/2016 22:10:27,Sarah Wishloff,Violin II,2/1/2016,Entire rehearsal,NESCAC championships swimming
+2/8/2016 22:54:56,Katie Chen,Violin I,2/9/2016,Before 8,Information and planning meeting for The Indicator.
+2/8/2016 23:48:21,Hannah Tandon,Horn,3/4/2016,After 7:30PM,"My friend is in a play, and I thought this would be the least disruptive day to see it.  I'm not sure if we'll have a dress rehearsal on the 4th (the Friday before our concert), but I know we'll have a rehearsal on the 3rd and the concert on the 5th, so this seemed best."
+2/9/2016 13:58:02,Yeva Berkovich,Cello,2/9/2016,Entire,Library meeting for SOCI 316
+2/9/2016 14:19:21,Eric Lin,Viola,2/9/2016,"Might be entire rehearsal, might be abke to come at 8:30",Chemistry Lab Writeup
+2/9/2016 16:08:14,Emily Ratte,Violin I,2/9/2016,Entire rehearsal,"I'm sorry to write to you again, but I got sick yesterday and I think I'm getting a fever, so I think it's best if I go straight home after my class tonight. I'm really sorry for the short notice and I hope you understand. Thank you very much, and see you on Thursday. "
+2/9/2016 17:27:43,Thyne Boonmark ,Violin I,2/9/2016,Entire rehearsal,Have a cold 
+2/9/2016 17:28:33,Sarah Wishloff,Violin II,2/11/2016,Entire Rehearsal ,Nescac swimming championships
+2/10/2016 10:10:31,Evelyn,Violin I,2/11/2016,After 9,Mandatory dorm event
+2/10/2016 17:26:50,Lydia Sawyer,Violin II,2/11/2016,Entire,Amherst Regional HS Orchestra performance at 7
+2/10/2016 21:02:39,Sonia Min,Violin I,2/11/2016,After Valentines treats (7-8ish),balancing life!
+2/10/2016 22:41:17,Eunnie Lee,Oboe/English Horn,2/11/2016,entire rehearsal,a fire alarm went off in Moore and they're in shock right now
+2/11/2016 23:33:48,Katianna Nardone,Violin II,2/18/2016,Entire rehearsal,Required author reading for ENGL 106
+2/12/2016 8:08:39,Leah Kim,Flute/Piccolo,2/16/2016,Entire rehearsal,Mandatory training session for ENGL-120
+2/14/2016 18:22:27,Test Person (ignore),Horn,2/14/2016,Entire,Valentines

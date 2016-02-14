@@ -17,9 +17,13 @@ def main():
     headings[3].text = 'Reason'
     file_name = 'Conflicts ' + date_as_string + '.docx'
 
+    # add ongoing conflicts first
+    ongoing = store_conflicts('ongoing.csv')
+
+    # iterate through the list of conflicts and add them to the document table one by one
     conflicts = store_conflicts('Conflicts.csv')
     for conflict in conflicts:
-        if conflict.date == date:
+        if string_to_datetime(conflict.date) == date:
             row = table.add_row().cells
             row[0].text = conflict.name
             row[1].text = conflict.instrument
