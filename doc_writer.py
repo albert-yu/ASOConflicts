@@ -4,24 +4,6 @@ from parser import *
 __author__ = 'Albert Yu'
 
 
-def add_conflicts_to_table(csv_filename, table, condition):
-    """
-    Populates a document's table with the conflict objects of a certain date.
-    :param csv_filename: string of csv filename or file path
-    :param table: the table object in the Word doc
-    :param condition: boolean, a condition under which the conflict object will be added
-    :return:
-    """
-    conflicts = store_conflicts(csv_filename)
-    for conflict in conflicts:
-        if condition:
-            row = table.add_row().cells
-            row[0].text = conflict.name
-            row[1].text = conflict.instrument
-            row[2].text = conflict.time
-            row[3].text = conflict.reason
-
-
 def main():
     date = datetime.date.today()
     document = Document()

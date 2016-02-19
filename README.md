@@ -2,7 +2,8 @@
 
 Every time a conflict is submitted:
 
-1. A student submits a conflict through this Google form: http://goo.gl/forms/1LE0ed0RsW
+1. A student submits a conflict through this Google form: 
+http://goo.gl/forms/NcgFjzIokQ
 
 2. The answer is recorded in a Google spreadsheet, and a Google script (not mine, but I modified it) automatically sends an email to my boss with the information in the conflict.
 
