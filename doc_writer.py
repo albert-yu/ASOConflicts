@@ -5,6 +5,12 @@ __author__ = 'Albert Yu'
 
 
 def add_conflict_row(conflict, row):
+    """
+    Adds the conflict object to the given row
+    :param conflict:
+    :param row:
+    :return: void
+    """
     row[0].text = conflict.name
     row[1].text = conflict.instrument
     row[2].text = conflict.time
@@ -12,6 +18,11 @@ def add_conflict_row(conflict, row):
 
 
 def create_headings(headings):
+    """
+    Creates the heading labels on the table
+    :param headings: The cells of the first row of the table (e.g. table.rows[0].cells)
+    :return: void
+    """
     headings[0].text = 'Name'
     headings[1].text = 'Instrument'
     headings[2].text = 'Time'
@@ -45,20 +56,14 @@ def main():
     for conflict in ongoing:
         if conflict.date[:len(conflict.date) - 1] == int_to_weekday[date.weekday()]:
             row = table.add_row().cells
-            row[0].text = conflict.name
-            row[1].text = conflict.instrument
-            row[2].text = conflict.time
-            row[3].text = conflict.reason
+            add_conflict_row(conflict, row)
 
     # iterate through the list of conflicts and add them to the document table one by one
     conflicts = store_conflicts('Conflicts.csv')
     for conflict in conflicts:
         if string_to_datetime(conflict.date) == date:
             row = table.add_row().cells
-            row[0].text = conflict.name
-            row[1].text = conflict.instrument
-            row[2].text = conflict.time
-            row[3].text = conflict.reason
+            add_conflict_row(conflict, row)
     document.save(file_name)  # this will overwrite the existing file, which is what we want
 
 if __name__ == "__main__":
