@@ -12,7 +12,7 @@ def store_week_conflicts(csv_filename):
     date = datetime.date.today()
     end_of_week = date + datetime.timedelta(days=7)
     date_range = [dt.date() for dt in rrule.rrule(rrule.DAILY, dtstart=date, until=end_of_week)]
-    with open(csv_filename, "rt") as f:
+    with open(csv_filename, "r") as f:
         reader = csv.reader(f)
         for row in reader:
             if row[0] != "Timestamp":
@@ -37,6 +37,9 @@ def main():
     # headings_thurs = table_thurs.rows[0].cells
     # create_headings(headings_thurs)
 
+    # document.add_heading('Friday', level=2)
+    # table_fri = document.add_table(rows=1, cols=4)
+
     # first iterate through ongoing conflicts
     ongoing = store_conflicts('ongoing.csv')
     for conflict in ongoing:
@@ -57,6 +60,10 @@ def main():
         elif string_to_datetime(conflict.date).weekday() == 3:
             row = table_thurs.add_row().cells
             add_conflict_row(conflict, row)
+        # if Friday, append to Friday table
+        # elif string_to_datetime(conflict.date).weekday() == 4:
+        #     row = table_fri.add_row().cells
+        #     add_conflict_row(conflict, row)
 
     file_name = 'Conflicts week of ' + date_as_string + '.docx'
     document.save(file_name)
