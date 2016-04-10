@@ -104,7 +104,7 @@ def store_conflicts(csv_filename):
     :return: a list of conflict objects
     """
     conflicts = []
-    with open(csv_filename, "rt") as f:
+    with open(csv_filename, "r") as f:
         reader = csv.reader(f)
         for row in reader:
             if row[0] != "Timestamp":

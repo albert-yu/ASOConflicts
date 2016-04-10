@@ -27,18 +27,25 @@ def main():
 
     document = Document()
     document.add_heading('CONFLICTS for the week of ' + date_as_string, 0)
+
+    # add table for Tuesday conflicts
     document.add_heading('Tuesday', level=2)
     table_tues = document.add_table(rows=1, cols=4)
-    headings_tues = table_tues.rows[0].cells
-    create_headings(headings_tues)
+    # headings_tues = table_tues.rows[0].cells
+    # create_headings(headings_tues)
 
+    # add table for Wednesday conflicts
+    document.add_heading('Wednesday', level=2)
+    table_wed = document.add_table(rows=1, cols=4)
+
+    # add table for Thursday conflicts
     document.add_heading('Thursday', level=2)
     table_thurs = document.add_table(rows=1, cols=4)
     # headings_thurs = table_thurs.rows[0].cells
     # create_headings(headings_thurs)
 
-    # document.add_heading('Friday', level=2)
-    # table_fri = document.add_table(rows=1, cols=4)
+    document.add_heading('Friday', level=2)
+    table_fri = document.add_table(rows=1, cols=4)
 
     # first iterate through ongoing conflicts
     ongoing = store_conflicts('ongoing.csv')
@@ -56,14 +63,20 @@ def main():
         if string_to_datetime(conflict.date).weekday() == 1:
             row = table_tues.add_row().cells
             add_conflict_row(conflict, row)
+
+        # if the weekday falls on a Wednesday, append it to the Tuesday table
+        if string_to_datetime(conflict.date).weekday() == 2:
+            row = table_wed.add_row().cells
+            add_conflict_row(conflict, row)
+
         # if Thursday, append to Thursday table
         elif string_to_datetime(conflict.date).weekday() == 3:
             row = table_thurs.add_row().cells
             add_conflict_row(conflict, row)
         # if Friday, append to Friday table
-        # elif string_to_datetime(conflict.date).weekday() == 4:
-        #     row = table_fri.add_row().cells
-        #     add_conflict_row(conflict, row)
+        elif string_to_datetime(conflict.date).weekday() == 4:
+            row = table_fri.add_row().cells
+            add_conflict_row(conflict, row)
 
     file_name = 'Conflicts week of ' + date_as_string + '.docx'
     document.save(file_name)

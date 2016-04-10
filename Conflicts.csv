@@ -1,4 +1,4 @@
-Timestamp,Name,Instrument,Day,Time,Reason
+Timestamp,Name? ,Instrument?,What day will you have the conflict?,What time will you be absent?,What is the reason?
 1/25/2016 17:24:58,Paul Gramieri,Cello,1/26/2016,Entire,Math comps
 1/25/2016 17:25:44,Paul Gramieri,Cello,1/28/2016,Entire rehearsal,Math Comps
 1/25/2016 17:26:46,Paul Gramieri,Cello,2/2/2016,Entire,AAS Fund meeting
@@ -133,3 +133,36 @@ Timestamp,Name,Instrument,Day,Time,Reason
 3/25/2016 16:58:31,Noel Cabanas,Oboe/English Horn,3/31/2016,After 9,Student Security meeting
 3/27/2016 12:26:09,Andrew Huynh,Trombone,3/31/2016,Entire Rehearsal,Dress Rehearsal
 3/27/2016 13:16:34,Cindy Gong,Viola,3/29/2016,Entire,club meeting
+3/27/2016 18:33:12,Gabby Ro,Violin I,3/29/2016,Entire Rehearsal ,GAP meeting
+3/27/2016 18:58:09,Paul Gramieri,Cello,3/31/2016,Entire rehearsal ,AAS Candidate speech night is at 7 (and I'd only be at rehearsal from 7-8:15 anyway)
+3/27/2016 19:04:10,Sarah Wishloff,Violin II,4/13/2016,Entire Rehearsal,Chemistry 151 Exam 
+3/27/2016 19:18:04,Andrew Huynh,Trombone,4/13/2016,Entire Rehearsal,Playing in a recital
+3/27/2016 19:19:26,Gabby,Violin I,4/13/2016,Entire rehearsal,"Chem 161 exam 
+"
+3/27/2016 19:28:30,Phil Beatty,Tuba,3/31/2016,Entire,Work conflict
+3/28/2016 22:45:58,Gilbert Wermeling,Cello,4/13/2016,Entire rehearsal,During this sitzprobe rehearsal for Bellini I have Concert Choir rehearsal.  Mark and me had discussed me missing this rehearsal already but if it becomes necessary I can talk to Mallorie about it if given some advance notice.  
+3/29/2016 11:42:38,Evelyn Ting,Violin I,4/7/2016,Before 8:30,Room draw
+3/29/2016 16:08:59,Andy Huynh,Trombone,3/29/2016,Entire,Mandatory rehearsals 
+3/29/2016 16:09:21,Andy Huynh,Trombone,3/31/2016,Entire,Mandatory rehearsals
+3/29/2016 16:09:51,Tony Ohanessian,Trombone,3/29/2016,Entire,Mandatory rehearsals for Fri concert
+3/29/2016 16:10:24,Tony Ohanessian,Trombone,3/31/2016,Entire,Mandatory rehearsal
+3/29/2016 16:11:13,Ellie Politi,Violin II,3/29/2016,Second half,Mandatory meeting for tour guides
+3/30/2016 22:06:06,Noel Cabanas,Oboe/English Horn,3/31/2016,Entire rehearsal,"This is the most last-minute notice ever, but my professor from NEUR 226 has just told us that she's holding a study session for material that we recently learned and that will appear on our exam this Friday. It's from 6:30 until 8 and I'll have to miss orchestra. This material is very new. Sorry!"
+3/31/2016 12:20:59,Katianna Nardone,Violin II,3/31/2016,entire rehearsal,ENGL-106 required event (visiting author)
+4/3/2016 1:20:58,Annie Chen,Violin II,4/7/2016,after 8pm,Orientation leader training
+4/3/2016 20:08:55,Andrew Huynh,Trombone,4/5/2016,Entire Rehearsal,"Brass Concert at UMass (Sorry, will be there Thursday)"
+4/3/2016 20:10:29,Gabby Rose,Violin II,4/7/2016,Entire,"Education Professions trip to Washington, DC"
+4/4/2016 9:31:59,Paul Gramieri,Cello,4/7/2016,Entire rehearsal,Orientation Leader training
+4/4/2016 22:32:43,Gil,Cello,4/12/2016,I should be there by 7:40,My room draw selection time is 7:20 p.m.
+4/5/2016 11:15:33,David Brinkley,Oboe/English Horn,4/5/2016,Entire Rehearsal,"Baseball. I'm sorry it's last-minute, but practice was moved inside because the field is covered in snow"
+4/5/2016 17:44:13,Amber Liu,Violin I,4/5/2016,7:00 to 8:30,I have a few lengthy calculus problem sets that are due tomorrow :(
+4/6/2016 21:55:04,Sonia Min,Violin I,4/7/2016,7 - 7:30,Geology midterm review
+4/7/2016 13:42:50,Gabby Ro,Violin I,4/7/2016,Before 8:30,GAP meeting
+4/7/2016 16:15:35,Caroline Magee,Cello,4/7/2016,7 - 7:40,Room Draw
+4/7/2016 16:15:55,Rebecca Chun,Violin II,4/7/2016,7 - 7:40,Room Draw
+4/7/2016 17:11:50,Anna Dalton,Oboe/English Horn,4/12/2016,Between 8:15-8:45,room draw
+4/7/2016 18:15:46,Erika DeAngelis,Clarinet,4/12/2016,7pm to around 8pm,Room draw
+4/7/2016 22:32:59,David Brinkley,Oboe/English Horn,4/12/2016,I have no idea. At least before ~7:45,"I have a baseball game sometime that day, but I don't know what time (it's an away game). I also have room draw at 7:30. "
+4/8/2016 0:58:37,Annie Chen,Violin II,4/12/2016,8:20 to 8:45 pm,room draw
+4/9/2016 17:45:29,Leah Kim,Flute/Piccolo,4/12/2016,Before 8:20,Room draw
+4/10/2016 12:07:18,Thyne Boonmark,Violin I,4/12/2016,8:30 - 9 ish,Room draw
